@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+test
+sitayone
+=======
+test　change
+>>>>>>> 4d2c4d6ecfaffd90435b8633a7231c1589a48b68
+
+変だね
+

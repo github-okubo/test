@@ -1,0 +1,78 @@
+[33mcommit 60fa7a611022e03a6d83e0d86ac6a100cd771798[m[33m ([m[1;36mHEAD -> [m[1;32mnew-branch[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 80c68eb 812fd1c
+Author: okubo <trxkgm@yahoo.co.jp>
+Date:   Thu Sep 7 11:00:13 2023 +0900
+
+    Merge branch 'main' of https://github.com/github-okubo/test
+
+[33mcommit 812fd1c4d0e4d78b2fd9408911a94b5206e12585[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Thu Sep 7 10:57:15 2023 +0900
+
+    Create test3
+
+[33mcommit 079068b023127d609460db58ff331086eeeaff4e[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Thu Sep 7 10:55:32 2023 +0900
+
+    Create ttt
+
+[33mcommit fb7b9107e46ecd23d1ccc8d6a40ac05462af68a9[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Thu Sep 7 10:47:57 2023 +0900
+
+    Create test.txt
+
+[33mcommit c317d1e132afe073c71f74ff318dd6b97bd99fda[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Thu Sep 7 10:46:22 2023 +0900
+
+    Update .gitkeep
+
+[33mcommit 80c68ebf5130bc9c329b2e35b680fcb2982196e2[m
+Author: okubo <trxkgm@yahoo.co.jp>
+Date:   Thu Sep 7 10:42:01 2023 +0900
+
+    (メッセージ)
+
+[33mcommit 65fc59acc4a3a5ab53b56334e052d0624575a8b3[m
+Author: okubo <trxkgm@yahoo.co.jp>
+Date:   Wed Sep 6 18:36:58 2023 +0900
+
+    コミットメッセージを修正
+
+[33mcommit 8120ba1aeaee2866240e0b00fc29c5e601197824[m[33m ([m[1;33mtag: v1.0[m[33m)[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Wed Sep 6 16:35:55 2023 +0900
+
+    Kadai_001ディレクトリにorange.pngをアップロード
+
+[33mcommit 6be37135ff2d7798b01c5f081d174a8ba057fd71[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Wed Sep 6 16:34:20 2023 +0900
+
+    Create .gitkeep
+
+[33mcommit 2409371e2bee5175010f829b1d022c2a7f1980ac[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Wed Sep 6 16:09:10 2023 +0900
+
+    orange.pngをアップロード
+
+[33mcommit 2e878d4fadd63e51a9f25742c0e4b90c4d20f6de[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Wed Sep 6 16:05:52 2023 +0900
+
+    hoge.txtwo
+
+[33mcommit 3f65ba9dfc2f291a460abe88d6d4d7eed18a8388[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Wed Sep 6 16:03:08 2023 +0900
+
+    hoge.txtを編集
+
+[33mcommit 042caf49607c5cecd2530a8349b34d8b7c1c4c95[m
+Author: github-okubo <143856953+github-okubo@users.noreply.github.com>
+Date:   Wed Sep 6 15:55:15 2023 +0900
+
+    hoge.txtを追加
