@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/*====================*/
+/*=== common Styles ==*/
+/*====================*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP";
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul.slider img {
+  width: 100vw;
+}
+
+body {
+  background: url(../img/bg.png);
+  background-position-x: center;
+  background-position-y: 15vw;
+  background-size: 130vw;
+  background-repeat: repeat-y;
+}
+header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+li {
+  list-style: none;
+}
+ol {
+  display: flex;
+  margin-left: 2vw;
+}
+
+/* トップへ戻るボタン */
+div.top-button {
+  width: 7vw;
+  margin: 0 1.5vw 0 auto;
+  text-align: center;
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+}
+div.top-button a {
+  text-decoration: none;
+}
+div.top-button p {
+  width: 7vw;
+  height: 7vw;
+  background: #1a1c18;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 1vw;
+  color: #fff;
+  transition: 0.5s;
+  transform: rotateX(0deg);
+  }
+div.top-button p::after {
+  content: "top";
+  display: block;
+  font-size: 2.4vw;
+}
+div.top-button p:hover {
+  transform: rotateX(360deg);
+}
+/*====================*/
+/*==== PC Styles =====*/
+/*====================*/
+@media screen and (min-width: 769px){
+  /* ヘッダー */
+  header {
+    position: sticky;
+    top: 0;
+  }
+  img.header-logo {
+  width: 10vw;
+  margin: 1vw 0 0 2vw;
+}
+nav ul {
+  display: flex;
+  width: 70vw;
+  justify-content: space-evenly;
+}
+
+/* フッター */
+footer {
+  background: #a8baba;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 3vw;
+  margin-top: 15vw;
+  height: 20vw;
+}
+footer img {
+  vertical-align: top;
+}
+footer ul {
+  display: inline;
+  margin: 2vw;
+  vertical-align: top;
+  font-size: 1.2vw;
+}
+footer ul.company-link {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  padding: 0;
+  margin: 0;
+  line-height: 2vw;
+}
+footer p.copy {
+  text-align: center;
+  grid-column: 1/5;
+}
+}
+/*====================*/
+/*=== mobile Styles ==*/
+/*====================*/
+@media screen and (max-width: 768px){
+img.header-logo {
+  width: 20vw;
+  position: relative;
+  top: 1vw;
+  left: 3vw;
+}
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+nav.nav-top p {
+  display: none;
+}
+nav.nav-top ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vw;
+  align-items: center;
+  border-top: 2px dotted #999;
+  border-bottom: 2px dotted #999;
+  background: rgba(255,255,255,0.7);
+}
+
+nav.nav-top ul li:nth-child(1),
+nav.nav-top ul li:nth-child(6),
+nav.nav-top ul li:nth-child(7) {
+  display: none;
+}
+nav.nav-top ul li {
+  padding: 1vw 4.7vw;
+  border-left: 2px dotted #999;
+}
+nav.nav-top ul li:nth-child(5) {
+  border-right: 2px dotted #999;
+}
+
+footer {
+background: #a8baba;
+}
+footer img {
+  display: block;
+  width: 40vw;
+  padding: 7vw 2vw;
+}
+footer ul.footer-menu-left li:first-child,
+footer ul.footer-menu-left li:nth-child(2),
+footer ul.footer-menu-left li:nth-child(3),
+footer ul.footer-menu-left li:nth-child(4),
+footer ul.footer-menu-left li:nth-child(5),
+footer ul.footer-menu-center {
+  display: none;
+}
+footer ul.footer-menu-left {
+  text-align: center;
+  margin: 5vw auto;
+}
+footer ul.company-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer p.copy {
+  padding: 10vw 0 15vw;
+  text-align: center;
+}
+
+}
